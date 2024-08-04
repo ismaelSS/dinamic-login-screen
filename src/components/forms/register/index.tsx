@@ -30,7 +30,7 @@ export default function RegisterForm() {
 
   return (
     <motion.form
-      onSubmit={handleSubmit(onSubmit)}
+      onSubmit={() => console.log('formulário submetido')}
       className="px-[30px] py-[15px] w-full min-h-[480px] bg-white  flex flex-col items-center gap-4 sm:shadow-1"
       initial={{ opacity: 0, y: 0 }}
       animate={controls}
