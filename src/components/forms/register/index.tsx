@@ -6,7 +6,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { tUserRegisterData, userRegisterSchema } from '@/schemas/users.schemas';
 import { SubmitHandler, useForm } from "react-hook-form";
 import { iUserRegister } from '@/typings/users';
-import { registerUser } from '@/utils/user.requisitions';
 
 export default function RegisterForm() {
   const controls = useAnimation();
